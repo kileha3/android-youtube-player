@@ -132,17 +132,18 @@
                 android:visibility="gone" />
 
             <ImageView
+                android:visibility="gone"
                 android:id="@+id/youtube_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ayp_ic_youtube_24dp"
+                android:layout_width="19dp"
+                android:layout_height="10dp"
+                android:background="@drawable/ayp_background_item_selected"
+                android:clickable="true"
+
+                android:contentDescription="@string/ayp_open_video_in_youtube"
+                android:focusable="true"
                 android:padding="8dp"
 
-                android:clickable="true"
-                android:focusable="true"
-                android:background="@drawable/ayp_background_item_selected"
-
-                android:contentDescription="@string/ayp_open_video_in_youtube" />
+                android:src="@drawable/ayp_ic_youtube_24dp" />
 
             <ImageView
                 android:id="@+id/fullscreen_button"
